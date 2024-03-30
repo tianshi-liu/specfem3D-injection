@@ -1,0 +1,4 @@
+! version information
+character(len=*), parameter :: git_package_version = "v4.0.0-93-gd2105bb8"
+character(len=*), parameter :: git_commit_version = "d2105bb86f9a57085bec59f34877cf0ffbe52bac"
+character(len=*), parameter :: git_date_version = "2023-07-18 10:19:13 +0200"

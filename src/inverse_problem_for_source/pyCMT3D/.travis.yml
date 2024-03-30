@@ -1,0 +1,37 @@
+language: python
+
+python:
+    - "3.7"
+
+before_install:
+    - sudo apt-get update
+    - if [[ "$TRAVIS_PYTHON_VERSION" == "3.7" ]]; then
+        wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+      else
+        wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh;
+      fi
+    - bash miniconda.sh -b -p $HOME/miniconda
+    - export PATH="$HOME/miniconda/bin:$PATH"
+    - hash -r
+    - conda config --set always_yes yes --set changeps1 no
+    - conda update -q conda
+    - conda info -a
+    - conda create -n condaenv python=$TRAVIS_PYTHON_VERSION
+    - conda install -n condaenv pip
+    - source activate condaenv
+    - conda install -c conda-forge obspy
+    - conda install python=$TRAVIS_PYTHON_VERSION numpy scipy=1.4.1 matplotlib nose pytest flake8=3.7.9 sphinx lxml sqlalchemy mock future
+    - conda install -c anaconda basemap
+    - pip install --user geographiclib
+    - pip install --user -r requirements.txt
+    - pip install coverage
+    - pip install coveralls
+
+install:
+    - pip install --no-deps -v -e .
+
+script:
+    - coverage run --source=pycmt3d setup.py test
+
+after_success:
+    - cd $TRAVIS_BUILD_DIR; coveralls
