@@ -1,6 +1,6 @@
 # Specfem3D injection
 
-A copy of [![SPECFEM3D_Cartesian repository](https://github.com/SPECFEM/specfem3d)] with an implementation of wavefield injection based on interface discontinuity
+A copy of [SPECFEM3D_Cartesian repository](https://github.com/SPECFEM/specfem3d) with an implementation of wavefield injection based on interface discontinuity
 
 ## Installation
 ```
