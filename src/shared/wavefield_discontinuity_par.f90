@@ -7,6 +7,8 @@ module wavefield_discontinuity_par
 
   logical :: IS_TOP_WAVEFIELD_DISCONTINUITY=.true.
 
+  logical :: IS_EXTRAPOLATION_MODE = .false.
+
   integer, parameter :: IFILE_WAVEFIELD_DISCONTINUITY=527
 
   !! boundary of wavefield discontinuity, read from database file
@@ -42,6 +44,10 @@ module wavefield_discontinuity_par
     else
       read(IFILE_WAVEFIELD_DISCONTINUITY, *) IS_WAVEFIELD_DISCONTINUITY
       read(IFILE_WAVEFIELD_DISCONTINUITY, *) IS_TOP_WAVEFIELD_DISCONTINUITY
+      !! if the third line is .true., we use an "extrapolation" mode
+      !! in which the exterior domain is embedded in the internal domain
+      !! if the third line does not exist, then use default value (.false.)
+      read(IFILE_WAVEFIELD_DISCONTINUITY, *, iostat=ier) IS_EXTRAPOLATION_MODE
       close(IFILE_WAVEFIELD_DISCONTINUITY)
       !if (myrank == 0) then
       !  print *, 'found switch file for wavefield discontinuity'
