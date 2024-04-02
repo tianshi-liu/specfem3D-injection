@@ -61,7 +61,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -74,7 +75,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -87,7 +89,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -100,7 +103,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -113,7 +117,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -126,7 +131,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -139,7 +145,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -152,7 +159,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -165,7 +173,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -178,7 +187,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -191,7 +201,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -204,7 +215,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -217,7 +229,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -230,7 +243,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -243,7 +257,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -256,7 +271,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -269,7 +285,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -282,7 +299,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -295,7 +313,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -308,7 +327,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -321,7 +341,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -334,7 +355,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -347,7 +369,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -360,7 +383,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -373,7 +397,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -386,7 +411,8 @@ subroutine find_wavefield_discontinuity_elements()
       if (is_boundary_wd(xstore(i,j,k,ispec), ystore(i,j,k,ispec), &
                        zstore(i,j,k,ispec), x_min, x_max, y_min, y_max, &
                        z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                       IS_TOP_WAVEFIELD_DISCONTINUITY)) then
+                       IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                       IS_EXTRAPOLATION_MODE)) then
         nb_wd = nb_wd + 1
         boundary_to_ispec_wd_temp(nb_wd) = ispec
         side_wd_temp(nb_wd) = iside
@@ -401,19 +427,30 @@ end subroutine find_wavefield_discontinuity_elements
 
 logical function is_boundary_wd(x, y, z, x_min, x_max, y_min, y_max, &
                                 z_min, z_max, x_mid, y_mid, z_mid, dx, dy, dz, &
-                                IS_TOP_WAVEFIELD_DISCONTINUITY)
+                                IS_TOP_WAVEFIELD_DISCONTINUITY, &
+                                IS_EXTRAPOLATION_MODE)
   implicit none
   double precision :: x_min, x_max, y_min, y_max, z_min, z_max
   double precision :: x, y, z, x_mid, y_mid, z_mid, dx, dy, dz
-  logical :: IS_TOP_WAVEFIELD_DISCONTINUITY
+  logical :: IS_TOP_WAVEFIELD_DISCONTINUITY, IS_EXTRAPOLATION_MODE
   is_boundary_wd = .false.
-  if (((x < x_min + dx) .or. (x > x_max - dx) .or. &
-       (y < y_min + dy) .or. (y > y_max - dy) .or. &
-       (z < z_min + dz) .or. ((z > z_max - dz) .and. &
-       IS_TOP_WAVEFIELD_DISCONTINUITY)) .and. &
-       (x_mid > x_min) .and. (x_mid < x_max) .and. &
-       (y_mid > y_min) .and. (y_mid < y_max) .and. &
-       (z_mid > z_min) .and. ((.not. IS_TOP_WAVEFIELD_DISCONTINUITY) .or. &
-       (z_mid < z_max))) &
-    is_boundary_wd = .true.
+  if (IS_EXTRAPOLATION_MODE) then
+    if (((x > x_min - dx) .and. (x < x_max + dx) .and. &
+         (y > y_min - dy) .and. (y < y_max + dy) .and. &
+         (z > z_min - dz) .and. (z < z_max + dz)) .and. &
+         ((x_mid < x_min) .or. (x_mid > x_max) .or. &
+         (y_mid < y_min) .or. (y_mid > y_max) .or. &
+         (z_mid < z_min) .or. (z_mid > z_max))) &
+      is_boundary_wd = .true.
+  else
+    if (((x < x_min + dx) .or. (x > x_max - dx) .or. &
+         (y < y_min + dy) .or. (y > y_max - dy) .or. &
+         (z < z_min + dz) .or. ((z > z_max - dz) .and. &
+         IS_TOP_WAVEFIELD_DISCONTINUITY)) .and. &
+         (x_mid > x_min) .and. (x_mid < x_max) .and. &
+         (y_mid > y_min) .and. (y_mid < y_max) .and. &
+         (z_mid > z_min) .and. ((.not. IS_TOP_WAVEFIELD_DISCONTINUITY) .or. &
+         (z_mid < z_max))) &
+      is_boundary_wd = .true.
+  endif
 end function is_boundary_wd
